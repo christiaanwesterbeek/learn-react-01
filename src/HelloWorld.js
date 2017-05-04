@@ -15,4 +15,8 @@ HelloWorld.propTypes = {
   cat: PropTypes.number.isRequired
 }
 
+HelloWorld.defaultProps = {
+  txt: 'Default txt'
+}
+
 export default HelloWorld
