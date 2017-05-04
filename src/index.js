@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import HelloWorld from './HelloWorld'
 
 ReactDOM.render(
-  <App />,
+  <HelloWorld txt="val"/>,
   document.getElementById('root')
 )
