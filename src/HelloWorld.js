@@ -2,10 +2,26 @@ import React from 'react'
 import PropTypes from 'prop-types'
 
 class HelloWorld extends React.Component {
+  constructor() {
+    super()
+
+    this.state = {
+      x: 1,
+      y: 2
+    }
+  }
+  update( e ) {
+    this.setState({
+      x: e.target.value
+    })
+  }
   render() {
-    let txt = this.props.txt
     return (
-      <div>HelloWorld {txt}</div>
+      <div>
+        <input type="text" onChange={this.update.bind(this)} />
+        <div>state x {this.state.x}</div>
+        <div>state y {this.state.y}</div>
+      </div>
     )
   }
 }
