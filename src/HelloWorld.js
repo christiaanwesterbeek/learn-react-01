@@ -1,5 +1,5 @@
 import React from 'react'
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
 class HelloWorld extends React.Component {
   render() {
@@ -11,8 +11,8 @@ class HelloWorld extends React.Component {
 }
 
 HelloWorld.propTypes = {
-  txt: React.PropTypes.string,
-  cat: React.PropTypes.number.isRequired
+  txt: PropTypes.string,
+  cat: PropTypes.number.isRequired
 }
 
 export default HelloWorld
