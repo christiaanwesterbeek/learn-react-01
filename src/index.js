@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './App'
+import Button from './Button'
 
 ReactDOM.render(
-  <App txt="val" cat={5} />,
+  <Button txt="val" cat={5} />,
   document.getElementById('root')
 )
