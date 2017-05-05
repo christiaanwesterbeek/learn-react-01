@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import UseMap from './UseMap'
+import HOC from './HOC'
 
 ReactDOM.render(
-  <UseMap />,
+  <HOC />,
   document.getElementById('root')
 )
