@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-export class Button extends Component {
+class Button extends Component {
   render() {
     return (
       <ButtonWidget>I <Heart /> React</ButtonWidget>
@@ -10,8 +10,7 @@ export class Button extends Component {
 
 const ButtonWidget = (props) => <button>{props.children}</button>
 
-
-export class Heart extends Component {
+class Heart extends Component {
   render() {
     return (
       <span>&hearts;</span>
