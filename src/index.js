@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import SyntEvents from './SyntEvents'
+import Refs from './Refs'
 
 ReactDOM.render(
-  <SyntEvents />,
+  <Refs />,
   document.getElementById('root')
 )
