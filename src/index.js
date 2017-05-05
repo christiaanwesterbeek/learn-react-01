@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Refs from './Refs'
+import LifeCycle from './LifeCycle'
 
 ReactDOM.render(
-  <Refs />,
+  <LifeCycle />,
   document.getElementById('root')
 )
