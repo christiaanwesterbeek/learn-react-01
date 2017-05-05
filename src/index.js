@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import NewProps from './NewProps'
+import UseMap from './UseMap'
 
 ReactDOM.render(
-  <NewProps />,
+  <UseMap />,
   document.getElementById('root')
 )
