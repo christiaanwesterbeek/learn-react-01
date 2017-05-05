@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ReactDOM from 'react-dom';
+import ReactDOM from 'react-dom'
 
 class LifeCycle extends Component {
   constructor() {
@@ -18,18 +18,27 @@ class LifeCycle extends Component {
   }
   componentWillMount() {
     console.log('componentWillMount', this, arguments)
+    this.setState({
+      m: 2
+    })
   }
   render() {
     console.log('render', this, arguments)
     return (
-      <button onClick={this.update}>{this.state.val}</button>
+      <button onClick={this.update}>
+        {this.state.val * this.state.m}
+      </button>
     )
   }
   componentDidMount() {
-    console.log('componentDidMount', this, arguments)
+    console.log('componentDidMount', this, ReactDOM.findDOMNode(this))
+
+    this.inc = setInterval(this.update, 500)
   }
   componentWillUnmount() {
     console.log('componentUnmount', this, arguments)
+
+    clearInterval(this.inc)
   }
 }
 
