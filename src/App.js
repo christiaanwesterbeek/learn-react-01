@@ -1,7 +1,7 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
-class HelloWorld extends React.Component {
+class App extends React.Component {
   constructor() {
     super()
 
@@ -26,12 +26,12 @@ class HelloWorld extends React.Component {
   }
 }
 
-HelloWorld.propTypes = {
+App.propTypes = {
   txt: PropTypes.string,
   cat: PropTypes.number.isRequired
 }
 
-HelloWorld.defaultProps = {
+App.defaultProps = {
   txt: 'Default txt'
 }
 
@@ -39,4 +39,4 @@ const Widget = (props) => (
   <input type="text" onChange={props.update.bind(this)} />
 )
 
-export default HelloWorld
+export default App
