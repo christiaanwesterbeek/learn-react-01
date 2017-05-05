@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Button from './Button'
+import Title from './Title'
 
 ReactDOM.render(
-  <Button txt="val" cat={5} />,
+  <Title />,
   document.getElementById('root')
 )
