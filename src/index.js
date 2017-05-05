@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import LifeCycle from './LifeCycle'
+import NewProps from './NewProps'
 
 ReactDOM.render(
-  <LifeCycle />,
+  <NewProps />,
   document.getElementById('root')
 )
