@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class UseMap extends Component {
+class App extends Component {
   constructor() {
     super()
 
@@ -47,4 +47,4 @@ class UseMap extends Component {
 
 const Person = (props) => <h2>{props.person.name}x</h2>
 
-export default UseMap
+export default App

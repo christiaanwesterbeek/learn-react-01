@@ -1,17 +1,16 @@
 import React, { Component } from 'react'
-import PropTypes from 'prop-types'
 
-class Title extends Component {
+class App extends Component {
   render() {
     return (
-      <TitleWidget text="xxxssss" />
+      <Title text="xxxssss" />
     )
   }
 }
 
-const TitleWidget = (props) => <h1>Title: {props.text}</h1>
+const Title = (props) => <h1>Title: {props.text}</h1>
 
-TitleWidget.propTypes = {
+Title.propTypes = {
   text(props, propName, component){
     console.log('text', arguments)
     if(!(propName in props)){
@@ -23,4 +22,4 @@ TitleWidget.propTypes = {
   }
 }
 
-export default Title
+export default App

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-class LifeCycle extends Component {
+class App extends Component {
   constructor() {
     super()
 
@@ -44,7 +44,7 @@ class LifeCycle extends Component {
 
 class Wrapper extends Component {
   mount() {
-    ReactDOM.render(<LifeCycle />,  document.getElementById('a'))
+    ReactDOM.render(<App />,  document.getElementById('a'))
   }
   unmount() {
     ReactDOM.unmountComponentAtNode(document.getElementById('a'))

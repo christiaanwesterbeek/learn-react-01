@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class Refs extends Component {
+class App extends Component {
   constructor() {
     super()
 
@@ -43,4 +43,4 @@ class Input extends Component {
   }
 }
 
-export default Refs
+export default App

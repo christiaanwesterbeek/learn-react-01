@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import ReactDOM from 'react-dom'
 
-class NewProps extends Component {
+class App extends Component {
   constructor() {
     super()
     this.state = {
@@ -11,7 +11,7 @@ class NewProps extends Component {
 
   update() {
     ReactDOM.render(
-      <NewProps val={this.props.val + 1} />,
+      <App val={this.props.val + 1} />,
       document.getElementById('root')
     )
 
@@ -48,8 +48,8 @@ class NewProps extends Component {
   }
 }
 
-NewProps.defaultProps = {
+App.defaultProps = {
   val: 0
 }
 
-export default NewProps
+export default App

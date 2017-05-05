@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 
-class SyntEvents extends Component {
+class App extends Component {
   constructor(){
     super()
     this.state = {currentEvent: '---'}
@@ -32,4 +32,4 @@ class SyntEvents extends Component {
   }
 }
 
-export default SyntEvents
+export default App

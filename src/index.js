@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import HOC from './HOC'
+import App from './App'
 
 ReactDOM.render(
-  <HOC />,
+  <App />,
   document.getElementById('root')
 )

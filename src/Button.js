@@ -1,14 +1,14 @@
 import React, { Component } from 'react'
 
-class Button extends Component {
+class App extends Component {
   render() {
     return (
-      <ButtonWidget>I <Heart /> React</ButtonWidget>
+      <Button>I <Heart /> React</Button>
     )
   }
 }
 
-const ButtonWidget = (props) => <button>{props.children}</button>
+const Button = (props) => <button>{props.children}</button>
 
 class Heart extends Component {
   render() {
@@ -18,4 +18,4 @@ class Heart extends Component {
   }
 }
 
-export default Button
+export default App
