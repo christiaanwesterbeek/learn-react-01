@@ -1,8 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Title from './Title'
+import SyntEvents from './SyntEvents'
 
 ReactDOM.render(
-  <Title />,
+  <SyntEvents />,
   document.getElementById('root')
 )
