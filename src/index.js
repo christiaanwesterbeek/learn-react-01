@@ -1,6 +1,6 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import App from './Children'
+import App from './ChildrenCloned'
 
 ReactDOM.render(
   <App />,
